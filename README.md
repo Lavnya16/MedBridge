@@ -1,5 +1,5 @@
-Smart Hospital Management System
-The Smart Hospital Management System is an advanced and efficient solution designed to streamline hospital operations. This system enables hospitals to manage patient records, staff workflows, and appointments with ease. Patients can conveniently book appointments, check doctor availability based on specialization, and even reserve hospital beds in real-time.
+MedBridge : A Smart and Connected Hospital Ecosystem!
+	MedBridge is a web-based platform integrating hospitals into a unified system to streamline healthcare. It enhances patient experience with features like hospital listings, doctor availability tracking, appointment booking, and real-time bed status monitoring. User reviews empower informed decision-making.
 
 🚀 Features
 ✅ Appointment Management – Patients can book appointments with doctors based on their specialization and availability.
@@ -11,6 +11,6 @@ The Smart Hospital Management System is an advanced and efficient solution desig
 
 This system enhances hospital efficiency, reduces manual workload, and improves patient experience by leveraging smart automation.
 
-📌 Tech Stack: [Specify the technologies used, e.g., Python, Django, React, MySQL]
+📌 Tech Stack: [Specify the technologies used, e.g., Python, Django, React, java ,MySQL]
 
-🔗 Contribute: We welcome contributions! Feel free to raise issues and submit pull requests.
+
