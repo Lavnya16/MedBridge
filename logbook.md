@@ -1,4 +1,5 @@
 MedBridge: Smart and Connected Hospital Ecosystem - Project Log Book
+
 🧰 Problem Statement
 Most medical institutions, especially on-campus or semi-urban medical centers, rely heavily on paper-based processes to manage patient records, distribute medicine, maintain stock, and generate reports. This manual system leads to redundant data entry, misplaced files, inefficient workflows, and significant delays in patient care. In addition, the absence of digital access makes it hard for patients to track prescriptions or diagnoses from remote locations. Our goal is to build an intelligent, web-enabled medical management system that centralizes all operations, reduces human errors, improves efficiency, and introduces automation through AI-based assistance.
 
