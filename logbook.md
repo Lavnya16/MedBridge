@@ -4,32 +4,31 @@
 Most medical institutions, especially on-campus or semi-urban medical centers, rely heavily on paper-based processes to manage patient records, distribute medicine, maintain stock, and generate reports. This manual system leads to redundant data entry, misplaced files, inefficient workflows, and significant delays in patient care. In addition, the absence of digital access makes it hard for patients to track prescriptions or diagnoses from remote locations. Our goal is to build an intelligent, web-enabled medical management system that centralizes all operations, reduces human errors, improves efficiency, and introduces automation through AI-based assistance.
 
 ## 🔍 Project Overview
-**MedBridge** is a full-stack, smart hospital ecosystem that connects patients, doctors, pharmacists, and medical staff through a unified digital platform. It allows for secure login and access control for different user roles. Users can log in, manage profiles, prescribe medicines, track inventory, view prescriptions, and access medical advice from anywhere. The platform also integrates an AI-powered chatbot that provides first-level assistance for common ailments like fever, cold, headache, or cough, helping reduce unnecessary workload on healthcare staff. The system is browser-based and works within intranet and internet environments, making it suitable for both institutional and remote usage.
+MedBridge is a full-stack, smart hospital ecosystem that connects patients, doctors, pharmacists, and medical staff through a unified digital platform. It allows for secure login and access control for different user roles. Users can log in, manage profiles, prescribe medicines, track inventory, view prescriptions, and access medical advice from anywhere. The platform also integrates an AI-powered chatbot that provides first-level assistance for common ailments like fever, cold, headache, or cough, helping reduce unnecessary workload on healthcare staff. The system is browser-based and works within intranet and internet environments, making it suitable for both institutional and remote usage.
 
 ## 👨‍⚕️ User Requirements
 
 ### General Users (Patients - Students/Staff)
-- View prescription history and diagnosis
-- Receive diet advice and medical precautions
-- Access AI chatbot for common health queries
+- View prescription history and diagnosis  
+- Receive diet advice and medical precautions  
+- Access AI chatbot for common health queries  
 
-### Administrative Users
+### Administrative Users  
+**Doctors**
+- Prescribe medicines and diagnosis details  
+- Suggest tests and provide diet/precaution guidelines  
 
-#### Doctors
-- Prescribe medicines and diagnosis details
-- Suggest tests and provide diet/precaution guidelines
+**Pharmacists**
+- Dispense medicines as per prescriptions  
+- Manage sub-store inventory  
 
-#### Pharmacists
-- Dispense medicines as per prescriptions
-- Manage sub-store inventory
+**Store Officers**
+- Monitor central stock levels  
+- Update newly purchased medicine entries  
 
-#### Store Officers
-- Monitor central stock levels
-- Update newly purchased medicine entries
-
-#### Medicine Distributors
-- Handle physical medicine distribution
-- Generate stock movement reports
+**Medicine Distributors**
+- Handle physical medicine distribution  
+- Generate stock movement reports  
 
 ### System Requirements
 - User-friendly interfaces  
@@ -40,100 +39,104 @@ Most medical institutions, especially on-campus or semi-urban medical centers, r
 ## 🛠️ System Design
 The system adopts a modular and layered architecture, ensuring separation of concerns and scalability. The major components include:
 
-- **User Module**: Manages registration, authentication, and user roles  
-- **Prescription Module**: Allows doctors to input and update patient prescriptions  
-- **Inventory Module**: Tracks medicines, generates alerts for low stock, and forecasts monthly purchase needs  
-- **Chatbot Module**: Processes user queries related to basic symptoms and suggests non-critical treatments  
-- **Report Module**: Generates billing for employees and medical reports for analysis  
+- **User Module:** Manages registration, authentication, and user roles  
+- **Prescription Module:** Allows doctors to input and update patient prescriptions  
+- **Inventory Module:** Tracks medicines, generates alerts for low stock, and forecasts monthly purchase needs  
+- **Chatbot Module:** Processes user queries related to basic symptoms and suggests non-critical treatments  
+- **Report Module:** Generates billing for employees and medical reports for analysis  
 
-The GUI is designed using HTML, CSS, and JavaScript while **Python (Flask or Django)** manages the backend logic. **MySQL** handles persistent data storage. The chatbot operates on predefined rule-based logic.
+The GUI is designed using HTML, CSS, and jQuery, while PHP manages the backend logic. MySQL (via XAMPP) handles persistent data storage. The chatbot operates on predefined rule-based logic.
 
 ## 🧱 Architecture
-
-The project follows a **3-tier architecture**:
+The project follows a 3-tier architecture:
 
 ### Presentation Layer
-- Web interfaces (HTML, CSS, JavaScript)  
+- Web interfaces (HTML, CSS, jQuery)  
 - Forms for login, prescription, medicine stock, reports  
 
 ### Business Logic Layer
-- Python (Flask/Django) handling HTTP requests, session management, and data processing  
+- PHP handling HTTP requests, session management, and data processing  
 - Role-based logic for doctors, pharmacists, etc.  
 
 ### Data Layer
 - MySQL database containing tables for users, patients, medicines, prescriptions, stock, etc.  
 
-Communication between layers is handled via HTTP and Python DB-API (`mysql-connector-python`), ensuring modularity and reusability.
+Communication between layers is handled via HTTP and PHP MySQLi/ PDO API, ensuring modularity and reusability.
 
 ## 🧑‍💻 Implementation Details
 
 ### Frontend
 - HTML/CSS for structure and styling  
-- JavaScript for interactivity  
+- jQuery for dynamic interactivity and AJAX requests  
 - Simple and intuitive layout optimized for speed  
 
 ### Backend
-- Python Flask/Django for business logic  
-- Authentication and session handling  
-- REST-like URL mappings for different operations  
+- PHP for core logic and session handling  
+- Server-side validation and authentication mechanisms  
+- REST-like URL routing with modular script inclusion  
 
 ### Database
-- Normalized tables with proper keys  
-- Triggers for automatic logging  
-- Views for simplified report generation  
+- MySQL database running on XAMPP  
+- Normalized tables with proper foreign key constraints  
+- Triggers for logging inventory movements and updates  
+- Views and stored procedures for simplified reporting  
 
 ### AI Chatbot
-- Rule-based system using condition checking  
-- Returns medicine suggestions for symptoms like fever, headache, cold  
-- Logs interaction history for audit  
+- Rule-based chatbot logic using PHP conditional structures  
+- Handles input for basic symptoms like fever, cold, headache  
+- Returns advice and medicine suggestions without prescription  
+- Logs chat history in the database for auditing purposes  
 
 ## 🧪 Testing
 
 ### Unit Testing
-- Flask/Django views and logic tested with `pytest`  
-- Chatbot responses validated against known cases  
+- PHP functions tested in isolation for accuracy  
+- Chatbot logic validated against predefined queries  
 
 ### Integration Testing
-- Tested flow from prescription to medicine delivery  
-- Simulated user interactions for all roles  
+- Tested user role interactions (doctor to pharmacist flow)  
+- End-to-end validation from prescription to inventory deduction  
 
 ### Database Testing
-- Query execution using SQL tools  
-- Validated stored procedures and triggers  
+- Manual and automated SQL query testing  
+- Trigger and view functionality checked for consistency  
 
 ### Manual Testing
-- UI tested in different browsers (Chrome, Firefox)  
-- Form validation and edge cases  
+- Cross-browser interface checks (Chrome, Firefox)  
+- Form validation (input edge cases, empty fields, SQL injection attempts)  
 
 ## 🛠️ Tools & Technologies
 
-- **Frontend**: HTML, CSS, JavaScript  
-- **Backend**: Python (Flask or Django)  
-- **Database**: MySQL 5.1  
-- **Web Server**: Gunicorn / Apache with mod_wsgi / Nginx  
-- **AI Module**: Custom rule-based logic (Python)  
-- **Additional Tools**:
-  - MySQL Workbench  
-  - mysql-connector-python  
-  - VS Code or PyCharm  
-  - Firefox for browser compatibility  
+- **Frontend:** HTML, CSS, jQuery  
+- **Backend:** PHP  
+- **Database:** MySQL (via XAMPP)  
+- **Web Server:** Apache (bundled with XAMPP)  
+- **AI Module:** Rule-based logic in PHP  
+
+### Additional Tools
+- MySQL Workbench  
+- phpMyAdmin  
+- Visual Studio Code / Sublime Text / Notepad++  
+- Firefox Developer Tools  
 
 ## 💡 Challenges
 
-- **Database Connectivity**: Initially faced connection issues with Python MySQL libraries; resolved using compatible `mysql-connector-python` version  
-- **UI Responsiveness**: Adjusting legacy HTML/CSS to ensure mobile and tablet responsiveness  
-- **AI Chatbot Logic**: Mapping symptoms accurately to non-prescriptive advice required extensive testing  
-- **Session Handling**: Ensuring each user session is isolated and secure using Flask/Django session mechanisms  
+- **Database Connectivity:** Initial errors with MySQLi extension; resolved by enabling `mysqli` driver and configuring `php.ini`  
+- **UI Responsiveness:** Adjusted older HTML/CSS layouts using media queries for compatibility across devices  
+- **AI Chatbot Logic:** Mapping symptom input to appropriate output required detailed rule specification and user feedback testing  
+- **Session Handling:** Used PHP native session features (`session_start()`, `session_destroy()`) with custom timeout logic  
 
 ## 📈 Future Enhancements
 
-- Replace rule-based chatbot with NLP-powered ML model  
-- Integration of patient appointment booking system  
-- Advanced analytics dashboards for admin staff  
-- Push notifications (Email/SMS) for appointments and prescriptions  
-- Role-based dynamic dashboards for doctors and pharmacists  
-- Mobile app version for Android/iOS users  
+- Upgrade chatbot to NLP-based model using third-party APIs or Python integration  
+- Add appointment scheduling and real-time doctor availability  
+- Admin dashboard with charts and patient data analytics  
+- Email/SMS reminders for prescriptions and consultations  
+- Role-based dashboards with widgets and KPIs  
+- Develop Android/iOS apps for mobile access  
 
 ## 📅 Conclusion
+MedBridge has been developed as a scalable, smart, and efficient hospital management system that can replace legacy paper-based processes. With the integration of an AI chatbot, modular design, and internet accessibility, it addresses both operational and patient-centric needs of modern medical centers. It lays the groundwork for future integration of advanced AI, remote monitoring, and patient engagement features.
 
-**MedBridge** has been developed as a scalable, smart, and efficient hospital management system that can replace legacy paper-based processes. With the integration of an AI chatbot, modular design, and internet accessibility, it addresses both operational and patient-centric needs of modern medical centers. It lays the groundwork for future integration of advanced AI, remote monitoring, and patient engagement features.
+---
+
