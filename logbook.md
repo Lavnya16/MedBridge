@@ -138,5 +138,5 @@ Communication between layers is handled via HTTP and PHP MySQLi/ PDO API, ensuri
 ## 📅 Conclusion
 MedBridge has been developed as a scalable, smart, and efficient hospital management system that can replace legacy paper-based processes. With the integration of an AI chatbot, modular design, and internet accessibility, it addresses both operational and patient-centric needs of modern medical centers. It lays the groundwork for future integration of advanced AI, remote monitoring, and patient engagement features.
 
----
+----
 
