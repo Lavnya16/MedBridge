@@ -17,38 +17,42 @@ In conclusion, MedBridge represents a significant step forward in modernizing ho
 
 ## Table of Contents
 
+# Table of Contents
+
 1. [Introduction](#introduction)
    - [Background and Motivation](#background-and-motivation)
    - [Problem Statement](#problem-statement)
    - [Objectives](#objectives)
-2. [Literature Survey](#literature-survey)
+2. [Implementation Phases](#implementation-phases)
+   - [Phase 1](#phase-1)
+   - [Phase 2](#phase-2)
+   - [Phase 3](#phase-3)
+3. [Literature Survey](#literature-survey)
    - [Existing Systems](#existing-systems)
    - [Limitations of Current Systems](#limitations-of-current-systems)
-3. [Proposed System](#proposed-system)
+4. [Proposed System](#proposed-system)
    - [System Overview](#system-overview)
    - [Features of MedBridge](#features-of-medbridge)
    - [Algorithmic Logic](#algorithmic-logic)
-4. [Requirements](#requirements)
+5. [Requirements](#requirements)
    - [Software Requirements](#software-requirements)
    - [Hardware Requirements](#hardware-requirements)
-5. [Methodology](#methodology)
+6. [Methodology](#methodology)
    - [Workflow Design](#workflow-design)
    - [Dataset Selection](#dataset-selection)
-6. [System Design and Architecture](#system-design-and-architecture)
+7. [System Design and Architecture](#system-design-and-architecture)
    - [UI Prototype to Web Interface](#ui-prototype-to-web-interface)
    - [Backend Functionalities](#backend-functionalities)
    - [Synchronization & Backend Logic](#synchronization-backend-logic)
-7. [Testing and Validation](#testing-and-validation)
+8. [Testing and Validation](#testing-and-validation)
    - [Unit Testing](#unit-testing)
    - [Integration Testing](#integration-testing)
    - [Security Testing](#security-testing)
-8. [Deployment and Maintenance](#deployment-and-maintenance)
+9. [Deployment and Maintenance](#deployment-and-maintenance)
    - [Deployment Process](#deployment-process)
-   - [Maintenance](#maintenance)
-9. [Future Enhancements](#future-enhancements)
-10. [Conclusion](#conclusion)
-11. [References](#references)
-12. [Appendices](#appendices)
+
+
+  
 
 ---
 
