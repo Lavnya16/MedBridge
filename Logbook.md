@@ -1,19 +1,19 @@
 📝 LOG BOOK
-Real-Time Sign Language Translator App
 Semester Project - III (Sem-V, 2024-25)
 
 📅 Weekly Progress
-Week	Date Range	Tasks Completed	Next Steps
-1	19/8/24 - 24/8/24	Introduction: Background, Motivation	Finalize problem statement
-2	26/8/24 - 31/8/24	Introduction: Problem Statement, Objectives	Literature survey planning
-3	2/9/24 - 7/9/24	Literature Survey: Reviewed existing systems, limitations	Tabulate findings
-4	9/9/24 - 21/9/24	Proposed System: Architecture, Algorithm design	Finalize technology stack
-5	23/9/24 - 28/9/24	Requirements: Software (Kotlin, TensorFlow Lite), Hardware (Android devices)	Begin UI prototyping
-6	30/9/24 - 5/10/24	Methodology: Workflow design, dataset selection	Start UI implementation
-7	7/10/24 - 12/10/24	Module 1: UI Prototype (Figma) → Android Studio conversion	Integrate ASL dataset
-8	14/10/24 - 19/10/24	Module 2: Gesture recognition (TensorFlow Lite model training)	Speech-to-text API integration
-9	21/10/24 - 26/10/24	Module 3: Backend logic, output synchronization	Testing & optimization
-10	28/10/24 - 2/11/24	Outcome: Final testing, report writing, deployment prep	Cross-device checks
+| Week | Date Range          | Tasks Completed                                              | Next Steps                           |
+|------|---------------------|---------------------------------------------------------------|--------------------------------------|
+| 1    | --------------------   | Introduction: Background, Motivation                          | Finalize problem statement          |
+| 2    | --------------------  | Introduction: Problem Statement, Objectives                    | Literature survey planning          |
+| 3    | ===================    | Literature Survey: Reviewed existing systems, limitations      | Tabulate findings                   |
+| 4    | --------------------  | Proposed System: Architecture, Algorithm design               | Finalize technology stack           |
+| 5    |--------------------   | Requirements: Software (Kotlin, TensorFlow Lite), Hardware (Android devices) | Begin UI prototyping                |
+| 6    | --------------------  | Methodology: Workflow design, dataset selection               | Start UI implementation             |
+| 7    |--------------------- | Module 1: UI Prototype (Figma) → Android Studio conversion    | Integrate ASL dataset               |
+| 8    |----------------------| Module 2: Gesture recognition (TensorFlow Lite model training)| Speech-to-text API integration      |
+| 9    | -------------------- | Module 3: Backend logic, output synchronization              | Testing & optimization              |
+| 10   | ---------------------  | Outcome: Final testing, report writing, deployment prep       | Cross-device checks                 |
 
 
 ## MedBridge: A Smart and Connected Hospital Ecosystem
