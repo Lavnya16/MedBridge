@@ -17,7 +17,6 @@ In conclusion, MedBridge represents a significant step forward in modernizing ho
 
 ## Table of Contents
 
-# Table of Contents
 
 1. [Introduction](#introduction)
    - [Background and Motivation](#background-and-motivation)
