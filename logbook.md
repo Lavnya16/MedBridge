@@ -19,11 +19,13 @@ Week	Date Range	Tasks Completed	Next Steps
 ## MedBridge: A Smart and Connected Hospital Ecosystem
 
 
-1. Introduction
+## 1. Introduction
+
 1.1 Background and Motivation
 Healthcare systems worldwide are under increasing pressure due to rising patient volumes, limited medical personnel, and the growing demand for high-quality, accessible services. Traditional hospital workflows are largely manual, paper-based, and fragmented, often resulting in delays, errors, and inefficiencies.
 The concept of a "smart hospital" leverages digital technology and automation to optimize healthcare delivery, improve patient experience, and enhance operational efficiency. With the proliferation of web-based systems and advancements in cloud computing, it is now possible to connect hospitals, patients, doctors, and administrative staff on a single, unified platform.
 MedBridge is developed with this motivation: to integrate hospitals into a smart ecosystem that enables real-time tracking, management, and interaction. By combining intuitive UI/UX design, robust backend architecture, and automated processes, MedBridge aims to streamline hospital operations and provide patients with seamless healthcare access.
+
 1.2 Problem Statement and Objectives
 Problem Statement
 Despite the availability of digital tools, many hospitals still rely on legacy systems that operate in silos. There is a lack of synchronization between patient information, appointment scheduling, bed availability, and doctor consultation systems. Additionally, in emergency scenarios, the inefficiency of manual systems can lead to critical delays.
