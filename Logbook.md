@@ -1,5 +1,5 @@
 📝 LOG BOOK
-Semester Project - III (Sem-V, 2024-25)
+Major Project -  (Sem-VI - VII, 2025-26)
 
 📅 Weekly Progress
 | Week | Date Range          | Tasks Completed                                              | Next Steps                           |
@@ -16,7 +16,7 @@ Semester Project - III (Sem-V, 2024-25)
 | 10   | ---------------------  | Outcome: Final testing, report writing, deployment prep       | Cross-device checks                 |
 
 
-## MedBridge: A Smart and Connected Hospital Ecosystem gfg
+## MedBridge: A Smart and Connected Hospital Ecosystem 
 
 
 # 1. Introduction
