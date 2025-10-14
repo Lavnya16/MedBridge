@@ -51,7 +51,7 @@ Several hospital management systems exist today, ranging from proprietary ERP so
 
 •	e-Hospital by NIC (India): A government-initiated platform focusing on administrative processes in public hospitals. While it offers core functionalities, it lacks user-friendly interfaces and customization.
 •	Apollo 24/7 & Practo: These platforms focus more on patient engagement and remote consultations but are limited in terms of backend hospital workflow integration.
-•	Commercial ERP Systems: Solutions like Meditech, Cerner, and EPIC are widely used in private hospitals but are costly, complex, and not easily adaptable for smaller hospitals.
+•	Commercial ERP Systems: Solutions like Meditech, Cerner, and EPIC are widely used in private hospitals but are costly, complex, and not easily adaptable for smaller hospitals. aa
 
 ## 2.2 Limitations Identified
 
