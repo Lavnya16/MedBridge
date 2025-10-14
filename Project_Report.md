@@ -20,7 +20,7 @@ Within the context of a smart hospital ecosystem like MedBridge, the "Manage Con
 
 * **Functionality:** The system allows administrative users to quickly query and retrieve the visit logs and appointment history for a specific patient confirmed with an infectious condition.  
 * **Data Access:** By cross-referencing the Patient and Appointment tables in the MySQL database, administrators can identify all other patients, doctors, and staff who were present or interacted with the infected individual within a defined time frame.  
-* **Purpose:** This feature ensures that the medical center can swiftly isolate potentially exposed individuals and implement necessary protocols without sifting through physical records, directly leveraging the centralized digital data provided by MedBridge. aaa
+* **Purpose:** This feature ensures that the medical center can swiftly isolate potentially exposed individuals and implement necessary protocols without sifting through physical records, directly leveraging the centralized digital data provided by MedBridge. 
 
 ## **2\. RELATED CONCEPTS**
 
