@@ -14,3 +14,11 @@ This system enhances hospital efficiency, reduces manual workload, and improves 
 
 📌 Tech Stack: [Specify the technologies used, e.g., Python, Django, React, java ,MySQL]
 
+### Team Members
+
+| Name | PRN |
+| :--- | :--- |
+| Rohit Kevalsing Rajput | B. Tech-AIML 221107013 |
+| Lavanya Nilesh Pagare | B. Tech-AIML 221107020 |
+| Gaurav Harish Sindhi | B. Tech-AIML 221107021 |
+| Abhijeet Hemant Desale | B. Tech-AIML 221107035 |
