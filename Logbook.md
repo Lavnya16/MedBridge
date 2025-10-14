@@ -1,5 +1,5 @@
 📝 LOG BOOK
-Major Project -  (Sem-VI - VII, 2025-26)
+Major Project -  (Sem - VI & VII, 2025-26)
 
 📅 Weekly Progress
 | Week | Date Range          | Tasks Completed                                              | Next Steps                           |
