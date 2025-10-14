@@ -25,7 +25,7 @@ Semester Project - III (Sem-V, 2024-25)
 
 Healthcare systems worldwide are under increasing pressure due to rising patient volumes, limited medical personnel, and the growing demand for high-quality, accessible services. Traditional hospital workflows are largely manual, paper-based, and fragmented, often resulting in delays, errors, and inefficiencies.
 The concept of a "smart hospital" leverages digital technology and automation to optimize healthcare delivery, improve patient experience, and enhance operational efficiency. With the proliferation of web-based systems and advancements in cloud computing, it is now possible to connect hospitals, patients, doctors, and administrative staff on a single, unified platform.
-MedBridge is developed with this motivation: to integrate hospitals into a smart ecosystem that enables real-time tracking, management, and interaction. By combining intuitive UI/UX design, robust backend architecture, and automated processes, MedBridge aims to streamline hospital operations and provide patients with seamless healthcare access. aa
+MedBridge is developed with this motivation: to integrate hospitals into a smart ecosystem that enables real-time tracking, management, and interaction. By combining intuitive UI/UX design, robust backend architecture, and automated processes, MedBridge aims to streamline hospital operations and provide patients with seamless healthcare access. 
 
 ## 1.2 Problem Statement and Objectives
 
