@@ -2,7 +2,7 @@
 
 ## **ABSTRACT**
 
-## MedBridge is a Smart and Connected Hospital Ecosystem implemented as a web-based platform to digitize and streamline healthcare operations, particularly for semi-urban or campus medical centers relying on paper records. It integrates patients, doctors, and staff into a unified digital system. 
+## MedBridge is a Smart and Connected Hospital Ecosystem implemented as a web-based platform to digitize and streamline healthcare operations, particularly for semi-urban or campus medical centers relying on paper records. It integrates patients, doctors, and staff into a unified digital system. aa
 
 ## **1\. INTRODUCTION**
 
