@@ -6,7 +6,7 @@
 
 ## **1\. INTRODUCTION**
 
-The rapid evolution of healthcare demands systems that are efficient, accurate, and patient-centric. Most on-campus and semi-urban medical centers currently rely on traditional, paper-based workflows for critical operations such as patient record management, prescription handling, inventory tracking, and reporting. This manual dependency is the core problem, leading to inefficiencies like:
+The rapid evolution of healthcare demands systems that are efficient, accurate, and patient-centric. Most on-campus and semi-urban medical centers currently rely on traditional, paper-based workflows for critical operations such as patient record management, prescription handling, inventory tracking, and reporting. This manual dependency is the core problem, leading to inefficiencies like:  
 
 1. **Redundant Data Entry and Errors:** Increased human workload and potential for misfiling or incorrect record keeping.  
 2. **Workflow Delays:** Slow processes for dispensing medicine and accessing historical patient data, delaying critical care decisions.  
