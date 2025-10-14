@@ -138,7 +138,7 @@ ________________________________________
 
 This module is the front-end foundation, focusing entirely on the User Experience (UX) and User Interface (UI). Its goal is to translate the conceptual design into a functional, aesthetically pleasing, and accessible web application.
 
-# 1.1. Conceptualization and Prototyping (Figma)
+## 1.1. Conceptualization and Prototyping (Figma)
 
 Theory: 
 Before coding, UI/UX wireframing is crucial. Figma serves as the design tool for creating low-fidelity wireframes (structural blueprints) and high-fidelity prototypes (interactive, visual mockups). This process allows the team to validate the flow (e.g., patient booking an appointment) and visual hierarchy before writing complex code, ensuring the interface is intuitive and supports the "user-friendly dashboard" mentioned in your abstract.
@@ -146,21 +146,69 @@ Before coding, UI/UX wireframing is crucial. Figma serves as the design tool for
 Application: 
 The specified elements like login forms, dashboards, appointment calendars, and search filters directly address the abstract's features (Appointment Management, Doctor Specialization Search).
 
+## 1.2. Implementation (HTML/CSS with Bootstrap 5)
+
+Theory: HTML (HyperText Markup Language) provides the structure and semantic meaning (like defining a table or a form). CSS (Cascading Style Sheets) handles the presentation (colors, fonts, layout). Bootstrap 5 is a powerful, mobile-first front-end framework that provides pre-designed components (like navigation bars, cards, modals) and a grid system.
+
+Application: Using Bootstrap ensures responsive design, meaning the layout adjusts seamlessly for both mobile and desktop viewing, fulfilling the requirement for a functional interface across all devices.
+
+## 1.3. Dynamic Interactivity (JavaScript)
+
+Theory: While HTML and CSS create static pages, JavaScript adds the dynamic behavior necessary for a modern web application. It handles user interactions, performs client-side validation, manipulates the Document Object Model (DOM) to show/hide elements, and prepares data for submission.
+
+Application: JavaScript is vital for dynamic components like interactive search filters, validating form inputs before submission, and managing the state of appointment calendars.
+
 ## Module 2: Hospital Functionalities (Backend)
 
-•	Appointment Scheduling: Java servlets query the MySQL database and return available doctors.
-•	Patient Management: Add/edit/delete patient records.
-•	Bed Allocation System: Tracks occupied vs. available beds.
-•	Review Module: Collects and displays patient reviews.
-•	Admin Panel: Controls hospital-wide settings and records.
+This module represents the core business logic of MedBridge, defining how the system manages and processes the data required to run a "smart and connected hospital ecosystem."
+
+## 2.1. Appointment Scheduling (Java Servlets & MySQL)
+
+Theory: The abstract mentions "Appointment Management" and "Doctor Specialization Search." When a patient requests an appointment, the Java Servlet acts as a controller. It receives the request (e.g., specialization, date), queries the MySQL database (which stores doctor schedules and availability), processes the data (e.g., filtering available slots), and sends the result back to the UI.
+
+Application: This backend process ensures that appointments are booked based on real-time doctor availability, preventing double-booking and streamlining the process.
+
+## 2.2. Patient Management & Bed Allocation System
+
+Theory: These functionalities handle the critical data persistence required for hospital operations. Patient management involves basic CRUD (Create, Read, Update, Delete) operations on the patient history and records, supporting "Efficient record-keeping." The Bed Allocation System maintains a persistent, centralized record of the state of every hospital bed (e.g., Occupied, Available, Reserved).
+
+Application: The Bed Allocation System is the engine behind the abstract's feature: "Real-time tracking and reservation of hospital beds," crucial for hospital efficiency and emergency support.
+
+## 2.3. Review Module & Admin Panel
+
+Theory: The Review Module involves storing, aggregating, and retrieving User Generated Content (UGC) in the database. This data is processed to generate metrics (like average star ratings) that "empower informed decision-making." The Admin Panel provides role-based access control for hospital administrators, allowing them to perform high-level management tasks and modify system settings.
+
+Application: This module ensures that the system is scalable and maintainable, giving hospital administrators the tools to manage "hospital-wide settings and records" and ensuring data quality.
 
 ## Module 3: Synchronization & Backend Logic
 
-•	All modules are interlinked via JDBC.
-•	Session management implemented for login persistence.
-•	Real-time validation of form inputs.
-•	Asynchronous refresh of dashboard data using AJAX.
-•	Exception handling to prevent server crashes.
+This module focuses on the crucial connectivity, state management, and robustness elements that turn the separate components into a unified, high-performance system.
+
+## 3.1. Inter-Module Connectivity (JDBC)
+
+Theory: JDBC (Java Database Connectivity) is the standard Java API for connecting to a relational database (MySQL). It defines the methods for establishing a connection, executing SQL queries (like SELECT, INSERT), and processing the result sets.
+
+Application: All modules—Appointment Scheduling, Bed Allocation, Patient Management—rely on JDBC to interact with the persistent data in MySQL, making it the essential backbone that interlinks all the functional modules.
+
+## 3.2. State and Data Management (Session Management & AJAX)
+
+Theory:
+
+Session Management: The server uses sessions to maintain the state of a user (patient, doctor, admin) across multiple requests, ensuring login persistence. After a user logs in, a session ID is created and exchanged, so the user doesn't have to log in on every page visit.
+
+AJAX (Asynchronous JavaScript and XML): This is a set of web development techniques that allows the client (browser) to send and receive data from the server asynchronously (in the background) without requiring a full page reload.
+
+Application: The "Asynchronous refresh of dashboard data" using AJAX is vital for the MedBridge system to display real-time bed status monitoring and up-to-date appointment lists without disruptive page refreshes, greatly enhancing the user experience.
+
+## 3.3. System Integrity (Validation & Exception Handling)
+
+Theory:
+
+Real-time Validation: Checks data for correctness (e.g., ensuring a PRN is a valid format) as the user types, improving data quality and user experience.
+
+Exception Handling: This involves implementing try-catch-finally blocks in the Java backend code to gracefully manage runtime errors (e.g., a database connection failure, a null pointer).
+
+Application: Implementing robust Exception Handling ensures that the system is resilient and reliable, preventing minor errors from causing server crashes and ensuring continuous availability for critical functions like "Emergency Support."
 ________________________________________
 
 # 7. Outcome
