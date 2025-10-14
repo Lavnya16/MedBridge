@@ -2,7 +2,7 @@ MedBridge : A Smart and Connected Hospital Ecosystem!
 
 MedBridge is a web-based platform integrating hospitals into a unified system to streamline healthcare. It enhances patient experience with features like hospital listings, doctor availability tracking, appointment booking, and real-time bed status monitoring. User reviews empower informed decision-making.
 
-🚀 Features
+🚀 Features  vv
 ✅ Appointment Management – Patients can book appointments with doctors based on their specialization and availability.
 ✅ Bed Availability & Booking – Real-time tracking and reservation of hospital beds.
 ✅ Patient & Staff Management – Efficient record-keeping of patient history and staff workflow.
