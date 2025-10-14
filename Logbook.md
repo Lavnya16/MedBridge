@@ -136,11 +136,15 @@ ________________________________________
 
 ## Module 1: UI Prototype to Web Interface
 
-•	UI wireframes were created using Figma.
-•	Elements include login forms, dashboards, appointment calendars, and search filters.
-•	Implemented in HTML/CSS with Bootstrap 5.
-•	Responsive design for mobile and desktop viewing.
-•	Integrated JavaScript for dynamic components.
+This module is the front-end foundation, focusing entirely on the User Experience (UX) and User Interface (UI). Its goal is to translate the conceptual design into a functional, aesthetically pleasing, and accessible web application.
+
+# 1.1. Conceptualization and Prototyping (Figma)
+
+Theory: 
+Before coding, UI/UX wireframing is crucial. Figma serves as the design tool for creating low-fidelity wireframes (structural blueprints) and high-fidelity prototypes (interactive, visual mockups). This process allows the team to validate the flow (e.g., patient booking an appointment) and visual hierarchy before writing complex code, ensuring the interface is intuitive and supports the "user-friendly dashboard" mentioned in your abstract.
+
+Application: 
+The specified elements like login forms, dashboards, appointment calendars, and search filters directly address the abstract's features (Appointment Management, Doctor Specialization Search).
 
 ## Module 2: Hospital Functionalities (Backend)
 
