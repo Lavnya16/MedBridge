@@ -16,7 +16,7 @@ Semester Project - III (Sem-V, 2024-25)
 | 10   | ---------------------  | Outcome: Final testing, report writing, deployment prep       | Cross-device checks                 |
 
 
-## MedBridge: A Smart and Connected Hospital Ecosystem vvv
+## MedBridge: A Smart and Connected Hospital Ecosystem
 
 
 # 1. Introduction
