@@ -12,7 +12,7 @@ MedBridge is a web-based platform integrating hospitals into a unified system to
 
 This system enhances hospital efficiency, reduces manual workload, and improves patient experience by leveraging smart automation.
 
-📌 Tech Stack: [Specify the technologies used, e.g., Python, Django, React, java ,MySQL]
+📌 Tech Stack: [Specify the technologies used, e.g., java, JSP, html, css, sql, Xampp]
 
 ### Team Members
 
